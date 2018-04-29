@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: seashell;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  opacity: 0.9;
+  align-items: center;
+}
+
+a {
+  color: seashell;
+}
+
+header {
+  border-bottom: 1px solid seashell;
+  display: flex;
+  height: 69px;
+}
+
+.logo {
+  flex-grow: 1;
+  margin: 10px 10px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav span {
+  display: inline-block;
+  padding: 10px 10px;
+}
+
+/* Our mission */
+.mission {
+  background-image: url(images/missionbg.jpg);
+  display: flex;
+  width: 1200px;
+  height: 700px;
+  margin: auto;
+}
+
+.info {
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+}
+
+h2, h4 {
+  padding: 7px 0px;
+}
