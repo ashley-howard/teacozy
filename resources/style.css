@@ -137,6 +137,10 @@ h2, h4 {
   padding: 1em 0px;
 }
 
+#locations h2 {
+  padding-bottom: 15px;
+}
+
 .contact {
   text-align: center;
   height: 200px;
