@@ -20,6 +20,10 @@ header {
   border-bottom: 1px solid seashell;
   display: flex;
   height: 69px;
+  position: fixed;
+  z-index: 99;
+  background-color: black;
+  width: 100%;
 }
 
 .logo {
@@ -42,12 +46,14 @@ nav span {
 }
 
 /* Our mission */
-.mission {
+#mission {
   background-image: url(images/missionbg.jpg);
   display: flex;
   width: 1200px;
   height: 700px;
   margin: auto;
+  position: relative;
+  top: 30px;
 }
 
 .info {
@@ -59,4 +65,99 @@ nav span {
 
 h2, h4 {
   padding: 7px 0px;
+}
+
+#featured {
+  width: 1000px;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  padding-top: 70px;
+  margin-bottom: -45px;
+}
+
+.showcase {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.showcase img {
+  width: 300px;
+  height: 200px;
+  padding: 0px 10px;
+}
+
+.showcase span {
+  padding-bottom: 5px;
+}
+
+#locations {
+  background-image:url(images/locationsbg.jpg);
+  display: flex;
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+    margin-top: 103px;
+}
+
+#locations .info {
+  background-color: inherit;
+}
+
+.locations {
+  display: flex;
+  margin: auto;
+  align-content: space-around;
+  width: 1020px;
+  margin-top: -30px;
+}
+
+.locations div {
+  text-align: center;
+  background-color: black;
+
+  display: flex;
+  flex-basis: 280px;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 10px;
+
+height: 100%;
+
+
+margin-left: 20px;
+margin-right: 20px;
+
+
+}
+
+#locations .info {
+  margin: 60px 0 0 0;
+  height: 0;
+}
+
+#locations div p {
+  padding: 1em 0px;
+}
+
+.contact {
+    text-align: center;
+    height: 200px;
+}
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.contact h3 {
+    padding: 10px 0px 25px 0px;
+}
+
+.contact h5 {
+  padding-bottom: 20px;
 }
