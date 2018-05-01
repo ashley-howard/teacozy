@@ -59,7 +59,7 @@ nav span {
 .info {
   margin: auto;
   text-align: center;
-  background-color: black;
+  background-color: #0000005c;
   width: 100%;
 }
 
@@ -117,7 +117,7 @@ h2, h4 {
 
 .locations div {
   text-align: center;
-  background-color: black;
+  background-color: #0000005c;
   display: flex;
   flex-basis: 280px;
   flex-direction: column;
